@@ -7,18 +7,25 @@
 <script src="ex1.js"></script>
 <script src="ex2.js"></script>
 </head>
-<body bgcolor="green" text="#008000">
+<body bgcolor="black" text="#000000">
 <p>鈴木　空</p>
 
 <h1>好きな野球選手</h1>
 <div id="image1">
-<input type="button" value="画像の変更" onclick="imgchange1();">
+<input type="button" value="誰?" onclick="imgchange1();">
 <img src='./image/マリナーズ.png' id="logo" alt="Mariners Logo"></div>
 
+<form name="timer2">
+<input type="button" value="名前" onclick="startfnc2()">
+<input type="text" name="moji" size="30" value=""></form>
+
 <div id="image2">
-<input type="button" value="画像の変更" onclick="imgchange2();">
+<input type="button" value="誰?" onclick="imgchange2();">
 <img src='./image/carp.png' id="logo2" alt="Carp Logo"></div>
 
+<form name="timer">
+<input type="button" value="名前" onclick="startfnc()">
+<input type="text" name="moji" size="30" value=""></form>
 
 </body>
 </html>
